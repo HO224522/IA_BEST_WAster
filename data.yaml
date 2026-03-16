@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['dangereux']
+
+roboflow:
+  workspace: trc-ihlb2
+  project: my-first-project-imhjk
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/trc-ihlb2/my-first-project-imhjk/dataset/1
